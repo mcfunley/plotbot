@@ -12,7 +12,6 @@ class Maze(object):
 
         self.layout()
 
-
     def adjacent_list(self, point):
         x, y = point
         lst = []
